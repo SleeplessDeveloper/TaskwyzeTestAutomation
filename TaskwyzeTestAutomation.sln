@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskwyzeTestAutomation", "TaskwyzeTestAutomation.csproj", "{FE3CD8D5-894B-40AE-A50F-D977D8768C09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE3CD8D5-894B-40AE-A50F-D977D8768C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3CD8D5-894B-40AE-A50F-D977D8768C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3CD8D5-894B-40AE-A50F-D977D8768C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3CD8D5-894B-40AE-A50F-D977D8768C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0069FF65-D614-4866-B05D-7AFF942E837D}
+	EndGlobalSection
+EndGlobal
