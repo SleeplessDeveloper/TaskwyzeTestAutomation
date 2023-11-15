@@ -20,11 +20,19 @@ namespace TaskwyzeTestAutomation.PageObjects
         
         [FindsBy(How = How.Id, Using = "signup")]
         private readonly IWebElement signUpButton;
-        
+        [FindsBy(How = How.Id, Using = "login")]
+        private readonly IWebElement signInButton;
+
         public SignUpPage SignUpPage()
         {
             signUpButton.Click();
             return new SignUpPage(_driver);
+        }
+
+        public LogInPage SignInPage()
+        {
+            signInButton.Click();
+            return new LogInPage(_driver);
         }
 
     }

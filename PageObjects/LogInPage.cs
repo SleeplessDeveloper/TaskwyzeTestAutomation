@@ -21,5 +21,14 @@ namespace TaskwyzeTestAutomation.PageObjects
 
         [FindsBy(How =How.Id, Using ="Password")]
         private IWebElement password;
+        [FindsBy(How = How.Id, Using = "submit")]
+        private IWebElement clickLogInButton;
+
+        public void LogInToApp(string Uemail, string Upassword)
+        {
+            email.SendKeys(Uemail);
+            password.SendKeys(Upassword);
+            clickLogInButton.Click();
+        }
     }
 }

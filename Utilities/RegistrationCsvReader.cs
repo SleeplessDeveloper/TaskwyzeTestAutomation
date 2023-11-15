@@ -62,7 +62,7 @@ namespace TaskwyzeTestAutomation.Utilities
 
                 counter++;
             }
-            for (int i =7; i < _name.ToArray().Length; i++)
+            for (int i =9; i < _name.ToArray().Length; i++)
             {
                 userString.Add(_name[i]);
                 userString.Add(_surname[i]);

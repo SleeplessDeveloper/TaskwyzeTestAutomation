@@ -25,6 +25,15 @@ namespace TaskwyzeTestAutomation.Tests
 
         }
 
+        [Test, TestCaseSource(nameof(AddTestDataConfig))]
+        public void Login(string name, string surname, string phonenumber, string email, string password)
+        {
+            CertificatePage certificatePage = new CertificatePage(GetDriver());
+            LandingPage landingPage = certificatePage.GoToLandingPage();
+            LogInPage logInPage = landingPage.SignInPage();
+            logInPage.LogInToApp(email, password);
+        }
+
 
       
         private static IEnumerable<TestCaseData> AddTestDataConfig()
